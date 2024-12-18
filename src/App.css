@@ -1,0 +1,53 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.character-info {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.character-info span {
+  color: #64B5F6;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.error-message {
+  padding: 1rem;
+  background-color: rgba(211, 47, 47, 0.1);
+  border: 1px solid #D32F2F;
+  border-radius: 4px;
+  color: #EF5350;
+  text-align: center;
+  margin-top: 1rem;
+} 
